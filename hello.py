@@ -10,6 +10,5 @@ Kisses,
 
 Vaios
  '''
- 
- 
+
 print(bigText)
