@@ -1,7 +1,6 @@
 newCourse = 'Python for The Absolute Beginners'
 print(len(newCourse))
 
-
 print(newCourse.lower())
 
 print(newCourse.upper())
@@ -17,6 +16,3 @@ print(newCourse.replace('P', 'J'))
 #check if a string exists in a text and print the result true or false
 print('Python' in newCourse)
 print('Falanji' in newCourse)
-
-
-
