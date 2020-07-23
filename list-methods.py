@@ -36,7 +36,11 @@ nums2.sort()
 print(nums2)
 
 nums2.reverse()
-print(nums2)
 
+print(nums2)
 print("nums3: ")
 print(nums3)
+
+nums2.clear()
+print("nums2: ")
+print(nums2)
