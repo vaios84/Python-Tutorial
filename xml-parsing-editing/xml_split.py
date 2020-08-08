@@ -1,6 +1,13 @@
-#!/usr/bin/env python
-# https://gist.github.com/benallard/8042835
+'''
+git repo: https://gist.github.com/benallard/8042835
+author: Benoît Allard
 
+Small python script to split huge XML files into parts. It takes one or two parameters. 
+The first is always the huge XML file, and the second the size of the wished chunks in Kb (default to 1Mb) (0 split wherever possible). 
+The generated files are called like the original one with an index between the filename and the extension like that: bigxml.… 
+'''
+
+#!/usr/bin/env python
 import os
 import xml.parsers.expat
 from xml.sax.saxutils import escape
@@ -9,7 +16,7 @@ from math import log10
 
 
 # How much data we process at a time
-CHUNK_SIZE = 1024 * 1024
+CHUNK_SIZE = 1024 * 1024 # = 1,000,000 = 1Mb
 
 # The sequence of element leading us to the current one
 path = []
