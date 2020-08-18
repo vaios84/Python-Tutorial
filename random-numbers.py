@@ -1,4 +1,4 @@
-import random
+import random # standard module of python3 library
 
 print("random float nums")
 for i in range(3):
