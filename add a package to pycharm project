@@ -1,0 +1,4 @@
+example install nltk:
+
+file -> Settings -> Project -> Python Interpreter -> hit the (+) sign -> 
+write nltk in the search bar -> find and select it and click Install Package
