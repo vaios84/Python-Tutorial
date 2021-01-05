@@ -1,4 +1,7 @@
-example install nltk:
+example install of package:
 
 file -> Settings -> Project -> Python Interpreter -> hit the (+) sign -> 
-write nltk in the search bar -> find and select it and click Install Package
+write the name of the package in the search bar (example: nltk , scipy etc.) -> 
+find and select it and click Install Package
+
+
