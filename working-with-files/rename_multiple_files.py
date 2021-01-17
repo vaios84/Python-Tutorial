@@ -3,13 +3,16 @@
 # importing os module 
 import os 
 import os.path
+import pathlib
+from os import path
 
 # Function to rename a .txt file
 def renameFile(filename):
 		changed_fname = filename[9:]  # remove first 9 chars 
 		file = pathlib.Path(filename)
 		if file.exists():
-			os.rename(filename, changed_fname) 
+			os.rename(filename, changed_fname)
+			print('file renamed')
 		else:
 			print('file not found')
 
