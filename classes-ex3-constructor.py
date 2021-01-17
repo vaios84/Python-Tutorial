@@ -13,7 +13,10 @@ class Point:
 		
 	def talk(self):
 		print(f"Hello I am from {self.name}. I am new here. ")
-		
+
+
+# main function
+
 # create Objects of the Class
 p1 = Point(10, 5, "New York")
 p2 = Point(8, 80, "London")

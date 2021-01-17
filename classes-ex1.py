@@ -6,8 +6,9 @@ class Point:
 	def draw(self):
 		print("draw cartoons")
 		
-		
-		
+
+
+# main function
 # create Objects of the Class
 
 point1 = Point()

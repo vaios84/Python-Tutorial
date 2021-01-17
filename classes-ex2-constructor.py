@@ -11,7 +11,8 @@ class Point:
 		print("draw cartoons")
 		
 		
-		
+# main function
+
 # create Objects of the Class
 p1 = Point(10, 5)
 p2 = Point(8, 80)
